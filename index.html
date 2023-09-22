@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Seller Add Item</h1>
+    <form method="post" action="/" enctype="multipart/form-data">
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="description">Description:</label>
+          <textarea
+            id="description"
+            name="description"
+            required></textarea>
+        </div>
+        <div>
+          <label htmlFor="price">Price:</label>
+          <input
+            type="number"
+            id="price"
+            name="price"
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="categories">Categories:</label>
+          <input
+            type="text"
+            id="categories"
+            name="categories"
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="color">Color:</label>
+          <input
+            type="text"
+            id="color"
+            name="color"
+            required
+          />
+        </div>
+        <div>
+          <label htmlFor="image">Image:</label>
+          <input
+            type="file"
+            id="image"
+            name="image"
+            required
+          />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
